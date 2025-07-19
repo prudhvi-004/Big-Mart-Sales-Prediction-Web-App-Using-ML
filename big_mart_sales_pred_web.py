@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-with open('C:/Users/prudh/OneDrive/Desktop/Machine Learning/Projects/Big Mart Sales Prediction/big_mart.pkl', 'rb') as model_file:
+with open('big_mart.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 st.set_page_config(page_title="Big Mart Sales Predictor", layout="centered")
